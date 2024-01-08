@@ -15,7 +15,7 @@ public:
                ans -= m[s[i]];
 
            }
-           else{
+           else {
                ans += m[s[i]];
            }
        }
