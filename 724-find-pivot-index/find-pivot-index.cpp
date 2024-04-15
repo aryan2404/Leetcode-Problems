@@ -30,7 +30,8 @@
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
-        for (int i = 0; i < nums.size(); ++i) {
+        int n = nums.size();
+        for (int i = 0; i < n; ++i) {
             int leftSum = 0;
             int rightSum = 0;
             
