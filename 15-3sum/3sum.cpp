@@ -1,21 +1,3 @@
-// class Solution {
-// public:
-//     vector<vector<int>> threeSum(vector<int>& arr) {
-//         int n = arr.size();
-//         int target = 0;
-//         // int start = 0;
-//         // int end = n-1;
-//         for(int i = 0;i<n-2;i++)
-//         for(int j= i+1;j<n-1;j++)
-//         for(int k= j+1;k<n;k++){
-//             if(arr[i]+arr[j]+arr[k]==target){
-//                 return 1;
-//             }
-//         }
-//         return 0;
-
-//     }
-// };
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& arr) {
