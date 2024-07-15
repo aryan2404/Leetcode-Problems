@@ -83,9 +83,9 @@ bool isPalindrome(ListNode* head) {
 
 };
 
-// // Function to create a new node
-// ListNode* createNode(int val) {
-//     ListNode* newNode = new ListNode(val);
-//     newNode->next = NULL;
-//     return newNode;
-// }
+// Function to create a new node
+ListNode* createNode(int val) {
+    ListNode* newNode = new ListNode(val);
+    newNode->next = NULL;
+    return newNode;
+}
