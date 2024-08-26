@@ -10,7 +10,7 @@ public:
                     break;
                 }
             }
-            if (!flag) {
+            if (flag == 0) {
                 return i;
             }
         }
