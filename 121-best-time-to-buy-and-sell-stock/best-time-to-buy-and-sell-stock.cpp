@@ -10,16 +10,11 @@ public:
     // }
     // return res;
     // }
-    int minSoFar = prices[0], res = 0;
+    int mini = prices[0], res = 0;
   
     for (int i = 1; i < prices.size(); i++) {
-
-        // Update the minimum value seen so
-        // far if we see smaller
-        minSoFar = min(minSoFar, prices[i]);
-       
-        // Update result if we get more profit                
-        res = max(res, prices[i] - minSoFar);
+        mini = min(mini, prices[i]);               
+        res = max(res, prices[i] - mini);
     }
     return res;
 }
