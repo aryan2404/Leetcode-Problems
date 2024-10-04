@@ -10,11 +10,11 @@ public:
     // }
     // return res;
     // }
-    int mini = prices[0], res = 0;
+    int minimum = prices[0], res = 0;
   
     for (int i = 1; i < prices.size(); i++) {
-        mini = min(mini, prices[i]);               
-        res = max(res, prices[i] - mini);
+        minimum = min(minimum, prices[i]);               
+        res = max(res, prices[i] - minimum);
     }
     return res;
 }
